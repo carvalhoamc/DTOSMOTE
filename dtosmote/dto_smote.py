@@ -1,6 +1,3 @@
-"""Class to perform over-sampling using DTO SMOTE."""
-from sklearn.decomposition import PCA
-
 '''
 Author: Alexandre Miguel de Carvalho <carvalho@machinelearning.com>
 Author: Ronaldo Cristiano Prati <ronaldo.prati@ufabc.edu.br>
@@ -26,6 +23,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''
 
+from sklearn.decomposition import PCA
 import os
 from collections import Counter
 import numpy as np
@@ -33,7 +31,7 @@ import pandas as pd
 from imblearn.over_sampling.base import BaseOverSampler
 from scipy.spatial import Delaunay
 from sklearn.utils import check_random_state
-from dto.TetrahedronStatistics import tetrahedron_stats
+from dtosmote.TetrahedronStatistics import tetrahedron_stats
 
 
 class DTO(BaseOverSampler):
