@@ -12,7 +12,7 @@ setup(
 		author='Alexandre Miguel de Carvalho & Ronaldo Cristiano Prati',
 		author_email='carvalho.alexandre@ufabc.edu.br',
 		url='https://github.com/carvalhoamc/DTOSMOTE',
-		download_url='https://github.com/carvalhoamc/DTOSMOTE/archive/v1.0.1.tar.gz',
+		download_url='https://github.com/carvalhoamc/DTOSMOTE/archive/v1.0.2.tar.gz',
 		keywords=['oversampling', 'smote', 'geosmote', 'dto', 'dtosmote'],
 		install_requires=[
 			'scikit-learn',
