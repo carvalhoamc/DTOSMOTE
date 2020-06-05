@@ -1,15 +1,18 @@
 from distutils.core import setup
 
 setup(
-		name='Delaunay Thetraedral Oversampling - DTOSMOTE',
+		name='dtosmote',
 		packages=['dtosmote'],
-		version='1.0.2',
+		version='1.0.3',
 		license='MIT',
 		description='Delaunay Thetraedral Oversampling - DTOSMOTE',
+		long_description= 'Oversampling creates synthetic or duplicate minority class sam- ples to match the same number of'
+		            ' samples from the majority class. As a result, the training data set becomes balanced before the'
+		            ' training phase. DTO-SMOTE constructs a mesh of simplices for creating synthetic examples.',
 		author='Alexandre Miguel de Carvalho & Ronaldo Cristiano Prati',
 		author_email='carvalho.alexandre@ufabc.edu.br',
 		url='https://github.com/carvalhoamc/DTOSMOTE',
-		download_url='https://github.com/carvalhoamc/DTOSMOTE/archive/v1.0.2.tar.gz',
+		download_url='https://github.com/carvalhoamc/DTOSMOTE/archive/v1.0.3.tar.gz',
 		keywords=['oversampling', 'smote', 'geosmote', 'dto', 'dtosmote'],
 		install_requires=[
 			'scikit-learn',
