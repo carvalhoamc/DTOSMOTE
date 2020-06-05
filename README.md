@@ -1,4 +1,4 @@
-# DTOSMOTE
+# DTO-SMOTE
 DELAUNAY THETRAEDRAL OVERSAMPLING SMOTE
 
 Oversampling creates synthetic or duplicate minority class sam-
