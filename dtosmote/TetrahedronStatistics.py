@@ -1,5 +1,5 @@
 '''
-Author: Alexandre Miguel de Carvalho <carvalho@machinelearning.com>
+Author: Alexandre Miguel de Carvalho <alexandre@carvalhomachinelearning.com>
 Author: Ronaldo Cristiano Prati <ronaldo.prati@ufabc.edu.br>
 
 MIT License
