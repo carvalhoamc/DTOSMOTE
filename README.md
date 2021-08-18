@@ -12,7 +12,7 @@ See test.py
 
 delaunay = DTO('teste1','solid_angle',7.5)
 Here, we have three parameters:
-'test1' is a temp file name for dtosmote.
+'test1' is a temp filename for dtosmote.
 
 geometry, could be: 
 'area'
