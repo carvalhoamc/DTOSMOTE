@@ -7,5 +7,5 @@ As a result, the training data set becomes balanced before the training
 phase. DTO-SMOTE constructs a mesh of simplices
 for creating synthetic examples.
 
-See example.py 
+See test.py 
 
