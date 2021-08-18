@@ -9,3 +9,20 @@ for creating synthetic examples.
 
 See test.py 
 
+
+delaunay = DTO('teste1','solid_angle',7.5)
+Here, we have three parameters:
+'test1' is a temp file name for dtosmote.
+
+geometry, could be: 
+'area'
+'volume'
+'area_volume_ratio'
+'edge_ratio'
+'radius_ratio'
+'aspect_ratio'
+'max_solid_angle'
+'min_solid_angle'
+'solid_angle'
+
+and dirichlet alpha: [1,10[
